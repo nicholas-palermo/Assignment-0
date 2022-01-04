@@ -1,4 +1,6 @@
 function subtractFive(num) {
+
+  //returns five less than the number passed
   return num - 5;
 }
 

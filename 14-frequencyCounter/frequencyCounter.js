@@ -1,6 +1,9 @@
 function frequencyCounter(word) {
+    
+    //creates an object
     let obj = {};
     
+    //loops through word counting frequency of the letters used
     for(let i=0;i < word.length;i++)
     {
       if(obj[word[i]]==undefined) {
@@ -11,6 +14,7 @@ function frequencyCounter(word) {
       }
     }
     
+    //returns object by value and keys
     return obj;
 }
 

@@ -1,5 +1,5 @@
 function greetFriend(name) {
-  // Insert code here;
+  //returns concatenated string
   return "Hello, " + name + "!";
 }
 

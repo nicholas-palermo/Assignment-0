@@ -1,4 +1,6 @@
 function cutInHalfAndFloor(num) {
+
+  //returns half the number passed after being rounded down
   return Math.floor(num/2);
 }
 
